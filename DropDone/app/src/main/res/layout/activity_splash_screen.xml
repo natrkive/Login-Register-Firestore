@@ -17,7 +17,7 @@
         android:layout_marginTop="250dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/ic_drone"/>
 
     <TextView
         android:id="@+id/tv_dropdone"

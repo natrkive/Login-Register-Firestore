@@ -14,9 +14,6 @@
         android:theme="@style/Theme.DropDone"
         tools:targetApi="31">
         <activity
-            android:name=".GoogleSignInActivity"
-            android:exported="false" />
-        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>

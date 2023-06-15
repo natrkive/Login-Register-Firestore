@@ -64,13 +64,13 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            RegisterFirebase(email,password)
+            registerFirebase(email, password)
         }
     }
 
-    private fun RegisterFirebase(email: String, password: String) {
+    private fun registerFirebase(email: String, password: String) {
         firebaseAuth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener(this, OnCompleteListener<AuthResult> { task ->
+            .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(this@RegisterActivity, "Register Berhasil", Toast.LENGTH_SHORT).show()
 
@@ -84,11 +84,11 @@ class RegisterActivity : AppCompatActivity() {
                         Log.d(TAG, "onSuccess: user Profile is Created for $userId")
                     })
 
-                    startActivity(Intent(applicationContext, LoginActivity     ::class.java))
+                    startActivity(Intent(applicationContext, LoginActivity::class.java))
                 } else {
                     Toast.makeText(this@RegisterActivity, "Registrasi Gagal", Toast.LENGTH_LONG).show()
                 }
-            })
+            }
     }
 
     companion object {
