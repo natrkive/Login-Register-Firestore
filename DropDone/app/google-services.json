@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "584639386425",
+    "project_id": "logindrone-ed473",
+    "storage_bucket": "logindrone-ed473.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584639386425:android:f6294d301f35ff6aae8ee8",
+        "android_client_info": {
+          "package_name": "com.capstone.dropdone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584639386425-f83632q13dht9nrm7r929b7lv51cp73t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.dropdone",
+            "certificate_hash": "9f5c86dcb17e2f1359f73d104ebd68b7669f1a31"
+          }
+        },
+        {
+          "client_id": "584639386425-dg43hkf1cnvo0mlf5r1nd2i0p7jgfoq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsuAQF019HlLQcdTXxJfeq-dLCd4_2WmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584639386425-dg43hkf1cnvo0mlf5r1nd2i0p7jgfoq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DropDone</string>
+    <string name="infoLogin">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btnlogin">Login</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="inforegister">Register</string>
+    <string name="google">Google</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+</resources>
